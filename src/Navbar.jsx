@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="header">
       <header>
         <nav>
-          <h3>|TheCream Joint|</h3>
+          <h3 className="logo">|TheCream Joint|</h3>
           <div className="menu">
             <ul>
               <li>About us</li>
