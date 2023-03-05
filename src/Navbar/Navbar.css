@@ -14,7 +14,9 @@
 .logo{
     color: #2BA84A;
     font-weight: 700;
+    text-shadow: 0 0 1px #2BA84A, 0 0 20px #fff, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 100px #0fa;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
