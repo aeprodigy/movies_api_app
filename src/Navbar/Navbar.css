@@ -11,6 +11,15 @@
 .txt{
     color: aliceblue;
 }
+.btm{
+    border-bottom: 2px solid #2BA84A;
+    
+}
+.align{
+    display: flex;
+    align-items: center;
+
+}
 .logo{
     color: #2BA84A;
     font-weight: 700;
@@ -31,6 +40,6 @@ li{
     text-decoration: none;
     list-style: none;
     padding-left: 13px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 400;
+   
 }
