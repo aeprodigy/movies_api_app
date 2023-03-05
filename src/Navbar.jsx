@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar/Navbar.css";
 import {FcFilmReel} from 'react-icons/fc';
+import {FaGlobeAfrica} from 'react-icons/fa'
 const Navbar = () => {
   return (
     <div className="header">
@@ -12,9 +13,11 @@ const Navbar = () => {
           </h3>
           <div className="menu">
             <ul>
-              <li>About us</li>
-              <li>Contact</li>
-              <li>Careers</li>
+              <li className="align">
+                EN
+                <FaGlobeAfrica />
+              </li>
+              <li>Sign in</li>
             </ul>
           </div>
         </nav>
