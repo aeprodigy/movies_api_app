@@ -12,10 +12,10 @@ const MovieBox = ({
 }) => {
   return (
     <div className="container">
-      <h3>{name}</h3>
+      <h3 className="name">{name}</h3>
       <img src={api_img + poster_path} alt=""></img>
-      <p>{overview}</p>
-      <h6>{vote_average}Votes</h6>
+      <p className="overview">{overview}</p>
+      <h6 className="votes">{vote_average}Votes</h6>
     </div>
   );
 };
